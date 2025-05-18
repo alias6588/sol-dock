@@ -84,3 +84,8 @@ This document outlines the virtual machine (VM) requirements for development, st
 - GitLab runner/Azure Pipeline
 - Docker
 - SSH
+
+## Notes  
+
+- All Iran VM must be located in a dedicated server.
+- When we reach a substantial number of users and uninterrupted availability becomes critical, we’ll add another server in a different data center, install a router to link the two servers, and deploy a SAN for database replication.

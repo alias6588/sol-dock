@@ -13,7 +13,9 @@ This document outlines the virtual machine (VM) requirements for development, st
 - **Infrastructure VM**
 - **Service VM**
 - **Nexus Repository VM**
+- **Code Repository VM**
 - **CI/CD Pipeline Runner VM**
+
 
 ---
 

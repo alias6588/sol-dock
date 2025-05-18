@@ -20,11 +20,11 @@ This document outlines the virtual machine (VM) requirements for development, st
 
 ## 1. Infrastructure VM
 
-| Environment   | vCPU | RAM   | HDD   | OS      | Location |
-|---------------|------|-------|-------|---------|----------|
-| Development   | 2    | 4 GB  | 50 GB | Ubuntu  | Iran     |
-| Staging       | 2    | 6 GB  | 75 GB | Ubuntu  | Iran     |
-| Production    | 4    | 8 GB  | 100 GB| Ubuntu  | Iran     |
+| Environment | vCPU | RAM  | HDD    | OS     | Location |
+| ----------- | ---- | ---- | ------ | ------ | -------- |
+| Development | 2    | 4 GB | 50 GB  | Ubuntu | Iran     |
+| Staging     | 2    | 6 GB | 75 GB  | Ubuntu | Iran     |
+| Production  | 4    | 8 GB | 100 GB | Ubuntu | Iran     |
 
 **Services:**
 
@@ -35,11 +35,11 @@ This document outlines the virtual machine (VM) requirements for development, st
 
 ## 2. Service VM
 
-| Environment   | vCPU | RAM   | HDD   | OS      | Location |
-|---------------|------|-------|-------|---------|----------|
-| Development   | 2    | 4 GB  | 50 GB | Ubuntu  | Iran     |
-| Staging       | 2    | 6 GB  | 75 GB | Ubuntu  | Iran     |
-| Production    | 4    | 8 GB  | 100 GB| Ubuntu  | Iran     |
+| Environment | vCPU | RAM  | HDD    | OS     | Location |
+| ----------- | ---- | ---- | ------ | ------ | -------- |
+| Development | 2    | 4 GB | 50 GB  | Ubuntu | Iran     |
+| Staging     | 2    | 6 GB | 75 GB  | Ubuntu | Iran     |
+| Production  | 4    | 8 GB | 100 GB | Ubuntu | Iran     |
 
 **Services:**
 
@@ -50,9 +50,9 @@ This document outlines the virtual machine (VM) requirements for development, st
 
 ## 3. Nexus Repository VM (shared in products)
 
-| Environment   | vCPU | RAM   | HDD    | OS      | Location      |
-|---------------|------|-------|--------|---------|---------------|
-|shared for envs| 4    | 8 GB  | 200 GB | Ubuntu  |Foreign country|
+| Environment     | vCPU | RAM  | HDD    | OS     | Location        |
+| --------------- | ---- | ---- | ------ | ------ | --------------- |
+| shared for envs | 4    | 8 GB | 200 GB | Ubuntu | Foreign country |
 
 **Services:**
 
@@ -63,9 +63,9 @@ This document outlines the virtual machine (VM) requirements for development, st
 
 ## 4. Code Repository VM (shared in products)
 
-| Environment   | vCPU | RAM   | HDD    | OS      | Location |
-|---------------|------|-------|--------|---------|----------|
-|shared for envs| 4    | 8 GB  | 100 GB | Ubuntu  | Iran     |
+| Environment     | vCPU | RAM  | HDD    | OS     | Location |
+| --------------- | ---- | ---- | ------ | ------ | -------- |
+| shared for envs | 4    | 8 GB | 100 GB | Ubuntu | Iran     |
 
 **Services:**
 
@@ -75,9 +75,9 @@ This document outlines the virtual machine (VM) requirements for development, st
 
 ## 5. CI/CD Pipeline Runner VM (shared in products)
 
-| Environment   | vCPU | RAM   | HDD   | OS      | Location |
-|---------------|------|-------|-------|---------|----------|
-|shared for envs| 4    | 6 GB  | 50 GB | Ubuntu  | Iran     |
+| Environment     | vCPU | RAM  | HDD   | OS     | Location |
+| --------------- | ---- | ---- | ----- | ------ | -------- |
+| shared for envs | 4    | 6 GB | 50 GB | Ubuntu | Iran     |
 
 **Services:**
 
